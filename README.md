@@ -18,6 +18,6 @@ The customer has inserted the money and is ready to make a transaction.
 7. see all the information that he/she input.
 8. cancel order.
 ## Mechanism
-The vending machine will jump state from state based on the what the machine has done based on orders from the customer. After every action, the machine will ask the customer what the next action is and suggest the next action to the customer.     
+The vending machine will jump state from state based on the what the machine has done based on orders from the customer. After every action, the machine will suggest the next action and ask the customer what the next action is.     
 Every state can do all the actions listed above but act differently.  
 For example, if you let the machine insert money without selecting any item first, the machine will tell you to select item first.
