@@ -23,6 +23,7 @@ Every state can do all the actions listed above but act differently.
 For example, if you let the machine insert money without selecting any item first, the machine will tell you to select item first.
 ## Class Diagram
 <img src="class diagram.PNG">
+
 ## Program example
 ```
 Welcome to the vending machine!
