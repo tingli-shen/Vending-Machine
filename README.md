@@ -9,7 +9,7 @@ The customer has selected the item and is ready to insert some money.
 3. Inserted Money State:  
 The customer has inserted the money and is ready to make a transaction.  
 ## Actions that customers can take
-&nbsp;1. customer can select an item.  
+1. customer can select an item.  
 2. customer can insert money.
 3. customer can excute transaction.
 4. customer can see the price of the item that he/she select.
