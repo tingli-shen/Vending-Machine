@@ -1,6 +1,10 @@
 # Vending-Machine
 This C++ project implements and simulates real vending machine.  
 The best and more effetive way to implement it is to use [state pattern](https://en.wikipedia.org/wiki/State_pattern).  
+
+## Class Diagram
+<img src="class diagram.PNG">
+
 ## Machine States
 1. No Selection State:  
 The initial state that the customer has not selected the item.  
@@ -21,8 +25,7 @@ The customer has inserted the money and is ready to make a transaction.
 The vending machine will jump state from state based on the what the machine has done based on orders from the customer. After every action, the machine will suggest the next action and ask the customer what the next action is.     
 Every state can do all the actions listed above but act differently.  
 For example, if you let the machine insert money without selecting any item first, the machine will tell you to select item first.
-## Class Diagram
-<img src="class diagram.PNG">
+
 
 ## Program example
 ```
