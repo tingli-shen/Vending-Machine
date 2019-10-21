@@ -9,14 +9,14 @@ The customer has selected the item and is ready to insert some money.
 3. Inserted Money State:  
 The customer has inserted the money and is ready to make a transaction.  
 ## Actions that customers can take
-1. customer can select an item.  
-2. customer can insert money.
-3. customer can excute transaction.
-4. customer can see the price of the item that he/she select.
-5. customer can see the amount of money that he/she insert.
-6. customer can restart order.
-7. customer can see all the information that he/she input.
-8. customer can cancel order.
+1. select an item.  
+2. insert money.
+3. excute transaction.
+4. see the price of the item that he/she select.
+5. see the amount of money that he/she insert.
+6. restart order.
+7. see all the information that he/she input.
+8. cancel order.
 ## Mechanism
 The vending machine will jump state from state based on the what the machine has done based on orders from the customer. After every action, the machine will ask the customer what the next action is and suggest the next action to the customer.     
 Every state can do all the actions listed above but act differently.  
